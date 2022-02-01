@@ -1,5 +1,7 @@
 # Panorama-Algorithm
 
+![panorama](https://github.com/samuelesm/Panorama-Algorithm/blob/main/yosemite/yosemite_pano_homography_blendwidth50.png)
+
 # Synopsis
 
 In this project, I implemented a system that combines a series of horizontally overlapping photographs into a single panoramic image. First, ORB is used to detect discriminating features in the images and find the best matching features in the other images. Then, using RANSAC, the photos are aligned the photographs and then blended into a single seamless panorama. 
